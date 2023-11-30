@@ -1,0 +1,74 @@
+@import url(../pages/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+
+.intro__title {
+  width: 100%;
+  font-family: "Inter";
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 58px;
+  margin-bottom: 15px;
+}
+.intro__paragraph {
+  max-width: 722px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-top: 40px;
+}
+
+.intro {
+  margin: auto;
+  text-align: left;
+}
+.intro__container {
+  max-width: 1017px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    max-width: 288px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+  }
+  .intro__title {
+    max-width: 288px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+  }
+  .intro__paragraph {
+    max-width: 288px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 9px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro__title {
+    max-width: 720px;
+    background: #2a2c2f;
+  }
+  .intro__title {
+    max-width: 720px;
+  }
+  .intro__paragraph {
+    max-width: 720px;
+    margin-top: 15px;
+  }
+}
