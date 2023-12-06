@@ -20,19 +20,19 @@
 @import url(../blocks/intro/__paragraph/__paragraph_author/intro__paragraph_author.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__box/photo-grid__box.css);
-@import url(../blocks/photo-grid/__box/-image/photo-grid__box-image.css);
+@import url(../blocks/photo-grid/__box/-image/photo-grid__item.css);
 
 .places {
+  margin: auto;
   margin-top: 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 987px;
 }
 .place {
-  max-width: 984px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: minmax(min-content, 460px) /* */ 1fr;
   grid-gap: 40px;
 }
 .place__website {
@@ -73,10 +73,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 163%;
-}
-.place__paragraph-text {
   padding-bottom: 16px;
 }
+
 .place__button {
   background-color: blue;
   color: #fff;
