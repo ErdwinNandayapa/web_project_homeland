@@ -70,3 +70,47 @@
   position: absolute;
   height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .cover {
+    height: 254px;
+    gap: 32px;
+  }
+
+  .cover__title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 35px;
+  }
+  .cover__subtitle {
+    max-width: 280px;
+    font-size: 14px;
+  }
+
+  .cover__background {
+    max-width: 320px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cover {
+    height: 746px;
+    gap: 32px;
+  }
+
+  .cover__title {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 76px;
+  }
+  .cover__subtitle {
+    max-width: 280px;
+    font-size: 18px;
+  }
+  .cover__button {
+  }
+  .cover__background {
+    max-width: 768px;
+  }
+}
