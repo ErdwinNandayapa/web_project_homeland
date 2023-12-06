@@ -8,3 +8,7 @@
   line-height: normal;
   padding: 13px 20px;
 }
+
+.place__button-hover {
+  cursor: pointer;
+}
