@@ -1,5 +1,3 @@
-# Tripleten web_project_homeland
-
 # PROYECTO DE PATRIA A PATRIA
 
 #Figma
