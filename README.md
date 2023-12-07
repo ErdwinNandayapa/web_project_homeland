@@ -10,7 +10,7 @@ Es un proyecto que muestra ciudades de algunos empleados de Practicum. Lo he dis
 
 Liga del diseño del proyecto en Figma
 
-https://www.figma.com/file/ZW8wxTYTZH2czTTfDMVHWq/WEB%2C-Sprint-3-%3A-De-patria-a-patria-%7C-desktop-%2B-mobile?node-id=0%3A1
+https://www.figma.com/file/tjwtMvCQkauaKN43QWlSsI/Web_Brief_Sprint_4_ES-%7C-De-patria-a-patria-%7C-desktop-%2B-mobile?type=design&node-id=0-1&mode=design&t=EIpNU1v2xgf5bz9n-0
 
 Tecnologias utilizadas
 
