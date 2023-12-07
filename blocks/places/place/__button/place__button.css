@@ -12,4 +12,6 @@
 
 .place__button:hover {
   cursor: pointer;
+  background-color: #0052a1;
+  transform: scale(1.05);
 }
