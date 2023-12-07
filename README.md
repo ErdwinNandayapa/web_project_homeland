@@ -1,10 +1,10 @@
 # PROYECTO DE PATRIA A PATRIA
 
-#Figma
-#responsive
-#Descripcion general
-#Figma
-#Responsive
+Figma
+responsive
+Descripcion general
+Figma
+Responsive
 
 Es un proyecto que muestra ciudades de algunos empleados de Practicum. Lo he diseñado que todos los elementos se muestran correctamente para el lector en los tamaños de pantallas mas adituables. Trabaje con paginas Responsivas es decir de acuerdo a tres tamaños de pantallas como son los telefonos (smartphones), tablets y computadoras. En este proyecto como se adecua de acuerdo a cada dispositivo con que se visualice.
 
