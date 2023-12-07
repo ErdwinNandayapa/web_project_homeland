@@ -1,11 +1,12 @@
-/* .photo-grid {
+.card {
   margin-top: 92px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
-} */
-/* @media screen and (max-width: 768px) {
-  .photo-grid {
+  list-style: none;
+}
+@media screen and (max-width: 768px) {
+  .card {
     margin-top: 38px;
     display: flex;
     flex-direction: column;
@@ -13,9 +14,9 @@
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .photo-grid {
+  .card {
     margin-top: 64px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-} */
+}
