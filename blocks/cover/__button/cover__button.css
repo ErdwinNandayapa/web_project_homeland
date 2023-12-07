@@ -1,11 +1,11 @@
 .cover__button {
-  z-index: 1;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  background-color: blue;
+  background-color: #0063d2;
   color: #fff;
   padding: 13px 20px;
   cursor: pointer;
+  border-radius: 10px;
 }
