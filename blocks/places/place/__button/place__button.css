@@ -1,4 +1,4 @@
-.place__button {
+/* .place__button {
   background-color: #0063d2;
   color: #fff;
   font-family: "Inter";
@@ -14,4 +14,23 @@
   cursor: pointer;
   background-color: #0052a1;
   transform: scale(1.05);
+} */
+
+.place__button {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #0063d2;
+  position: relative;
+  text-align: center;
+}
+
+.place__button:hover {
+  background-color: #0052a1;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease-in-out;
 }
